@@ -1,0 +1,11 @@
+Un pequeño proyecto de prueba, un chat en la terminal con sockets. No contiene framework es Nodejs puro.
+
+Para iniciarlo debe colocar varios terminales (depende de cuantos clientes desea en el chat).
+
+#El servidor del chat: node server.js 8000 
+    (puede colocar cualquier numero de puerto por encima de 3000)
+#Para iniciar la parte del cliente: node client.js localhost 8000 
+    (localhost porque debe colocar desde que host se conecta, es obligatorio, al igual que colocar el mismo numero de puerto que abrio el chat )
+#Para desconectarse por la parte del cliente es: "END". De igual manera se o indica en el chat.
+
+¡Gracias por probar el chat :D!
